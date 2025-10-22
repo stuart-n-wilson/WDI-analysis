@@ -35,9 +35,11 @@ ggplot(data = countries_df_clean,
   labs(
     x = "Year",
     y = "Life expectancy at birth (years)",
+    colour = "Income",
     title = "Life expectancy of infants for different income countries, 1960 - 2020",
     caption = "Data Source: World Development Indicators (The World Bank) | Plot by Stuart Wilson"
   ) + 
   theme_minimal()
+
 
 
